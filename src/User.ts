@@ -3,7 +3,7 @@ enum ArmorType{
     LEATHERARMOR = 1.4,
     PLATEARMOR = 2,
     HEAVYARMOR = 2.4,
-    NOTHINGTOWEAR = 0.2
+    NOTHINGTOWEAR = 0.2//
 }
 
 var Cache: MethodDecorator = (target : any,propertyKey,descriptor : PropertyDescriptor) => {
