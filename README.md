@@ -9,3 +9,6 @@
 ###fightPower：计算最大战斗力，this.maxHP*1.5+this.attack*1.8
 ###defence：英雄防御力： 英雄装备所有防具防御力之和 * 0.2 + 当前等级 * 英雄的品质 *　2
 ###fightPower英雄战斗力： 英雄装备所有武器战斗力之和 + 英雄装备所有防具战斗力之和 + （10 + 英雄攻击力 * 10 + 英雄防御力 * 8 + 英雄敏捷值 * 6） * 英雄等级 * 英雄品质
+###Equipment装备：基本属性：quality品质     高级属性：attack 攻击值  getFightPower战斗力
+###jewelry珠宝：基本属性：quality品质     高级属性：attack 攻击值  getFightPower战斗力
+###Armor防具：基础属性： name防具名称 : string; quality品质 ： Quality armorType防具种类 ： ArmorType   高级属性：defence防御
